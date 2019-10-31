@@ -1,3 +1,8 @@
+/*
+This program doesn't run on time when graded by AlphaStar,
+but it does when graded by USACO's servers
+*/
+
 package Day3Graph1;
 
 import java.io.*;
