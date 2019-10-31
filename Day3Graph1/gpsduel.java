@@ -1,5 +1,5 @@
 /*
-This program doesn't run on time when graded by AlphaStar,
+This program doesn't run on time when graded by AlphaStar Academy,
 but it does when graded by USACO's servers
 */
 
