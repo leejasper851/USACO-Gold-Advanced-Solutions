@@ -1,6 +1,12 @@
 /*
+NAME: leejasp1
+LANG: JAVA
+PROG: gpsduel
+*/
+
+/*
 This program doesn't run on time when graded by AlphaStar Academy,
-but it does when graded by USACO's servers
+but it does when graded by USACO's servers.
 */
 
 package Day3Graph1;
@@ -10,8 +16,8 @@ import java.util.*;
 
 public class gpsduel {
 	public static void main(String[] args) throws IOException {
-		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-		PrintWriter writer = new PrintWriter(new BufferedWriter(new OutputStreamWriter(System.out)));
+		BufferedReader reader = new BufferedReader(new FileReader("gpsduel.in"));
+		PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("gpsduel.out")));
 		
 		StringTokenizer st = new StringTokenizer(reader.readLine());
 		int numNodes = Integer.parseInt(st.nextToken());
