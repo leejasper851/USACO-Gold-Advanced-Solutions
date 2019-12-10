@@ -1,3 +1,8 @@
+/*
+This program doesn't run on time when graded by AlphaStar Academy,
+but it does when graded by USACO's servers.
+*/
+
 package Day3Graph1;
 
 import java.io.*;
@@ -5,8 +10,8 @@ import java.util.*;
 
 public class ccski {
 	public static void main(String[] args) throws IOException {
-		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-		PrintWriter writer = new PrintWriter(new BufferedWriter(new OutputStreamWriter(System.out)));
+		BufferedReader reader = new BufferedReader(new FileReader("ccski.in"));
+		PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("ccski.out")));
 		
 		StringTokenizer st = new StringTokenizer(reader.readLine());
 		int numRows = Integer.parseInt(st.nextToken());
